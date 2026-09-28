@@ -1,0 +1,86 @@
+{
+  "format": "cacherepair-model-release-v1",
+  "models": [
+    {
+      "target_model": "Qwen/Qwen2.5-3B-Instruct",
+      "capacity": "S",
+      "subfolder": "Qwen2.5-3B-Instruct/S",
+      "trainable_parameters": 9456256,
+      "weights_sha256": "5a9f38593146497f51aa9d88131756af32b23aef18c77949c6c48e1ccf140acb",
+      "config_sha256": "adb13ea29e58a61b0167564efc552093e86ed6bcc32889c89e8978de2375d56e",
+      "bytes": 37977912
+    },
+    {
+      "target_model": "Qwen/Qwen2.5-3B-Instruct",
+      "capacity": "M",
+      "subfolder": "Qwen2.5-3B-Instruct/M",
+      "trainable_parameters": 29844224,
+      "weights_sha256": "cbe900e8829b02a9b3074df169308b005189c151bc158cbb169c449018984742",
+      "config_sha256": "e3be325f19332b62b8710bc3ccea1f44050e90fab49d9b9f6565d030189badaa",
+      "bytes": 119530680
+    },
+    {
+      "target_model": "Qwen/Qwen2.5-3B-Instruct",
+      "capacity": "L",
+      "subfolder": "Qwen2.5-3B-Instruct/L",
+      "trainable_parameters": 51068480,
+      "weights_sha256": "86e5b06c8c48640e212405429d079a68915976e7afcbf8af13c227228c345cfd",
+      "config_sha256": "7f8cff048a40c0b6c3e917681bfc0afb40b87247b3f1a831d8d6955122821066",
+      "bytes": 204427768
+    },
+    {
+      "target_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "capacity": "S",
+      "subfolder": "Llama-3.1-8B-Instruct/S",
+      "trainable_parameters": 23219712,
+      "weights_sha256": "c424197d08c9df96f4c1deaac5be6eda1c62ca292464ee2802427a1db52d2324",
+      "config_sha256": "9274faec55ea9f2e443247ced140186d99a10c21ef5bc2fa5ad6ea5aff8eaae2",
+      "bytes": 93408568
+    },
+    {
+      "target_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "capacity": "M",
+      "subfolder": "Llama-3.1-8B-Instruct/M",
+      "trainable_parameters": 58831360,
+      "weights_sha256": "91fe41571637865d63ba95eeacb755841607c8944736cb3d12c6734a978330fd",
+      "config_sha256": "cd64885ae8fc798f0c26e1fa413c33f00335416704a73dee177ee00bc6999f68",
+      "bytes": 235856056
+    },
+    {
+      "target_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "capacity": "L",
+      "subfolder": "Llama-3.1-8B-Instruct/L",
+      "trainable_parameters": 93075648,
+      "weights_sha256": "995f57e3abda488ce1811a80185ad9b4d08db2fc1cef6a9bb96496326eb14738",
+      "config_sha256": "7dab233197b489a1014c1726a5b058f630f5fa5ce52d06852fb3bc8ee0530ae4",
+      "bytes": 372833280
+    },
+    {
+      "target_model": "Qwen/Qwen2.5-14B-Instruct",
+      "capacity": "S",
+      "subfolder": "Qwen2.5-14B-Instruct/S",
+      "trainable_parameters": 41809280,
+      "weights_sha256": "6710f1ad6305a57886fb2605c80cd68ba9337cd1569002aaeddc9f1372bfaf2e",
+      "config_sha256": "0fd460645f359fe4da8be39c27b527483b056f0faf79423a60b9b0ed2dbb0510",
+      "bytes": 168029008
+    },
+    {
+      "target_model": "Qwen/Qwen2.5-14B-Instruct",
+      "capacity": "M",
+      "subfolder": "Qwen2.5-14B-Instruct/M",
+      "trainable_parameters": 103638656,
+      "weights_sha256": "542d8990c557e1d3ff7b97784563fc714f6474ec8e82403af6516dfcd1366fa2",
+      "config_sha256": "862d5cc22820cec2f455ff20ed7dfa61dd1f8909a0f4062c40dc73cf3a468e9b",
+      "bytes": 415347440
+    },
+    {
+      "target_model": "Qwen/Qwen2.5-14B-Instruct",
+      "capacity": "L",
+      "subfolder": "Qwen2.5-14B-Instruct/L",
+      "trainable_parameters": 158615808,
+      "weights_sha256": "5f7203250a677daffdd590d39fca3b64f4b8d4230292f905c717134a7f3b1953",
+      "config_sha256": "d8c3990f4ad3555f83e1e9cde52b44490f7fe4a473960865f2df4c6bbe26c3d3",
+      "bytes": 635256928
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+recursive-include configs *.json
+recursive-include docs *.md
+include LICENSE NOTICE

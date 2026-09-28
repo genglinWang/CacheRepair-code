@@ -1,0 +1,15 @@
+CacheRepair
+Copyright 2026 CacheRepair authors
+
+The code integrates separately installed PyTorch, Transformers, vLLM,
+Hugging Face Hub, and scientific Python packages. Each dependency retains
+its own license. Dataset contents are obtained from their original sources.
+
+Qwen integrations: Built with Qwen. Qwen2.5-3B-Instruct uses the Qwen
+Research License; Qwen2.5-14B-Instruct uses Apache-2.0.
+
+Llama integration: Built with Llama.
+Llama 3.1 is licensed under the Llama 3.1 Community License,
+Copyright © Meta Platforms, Inc. All Rights Reserved.
+
+Repairer weight licenses are listed separately in the model repository.

@@ -1,0 +1,67 @@
+{
+  "format": "cacherepair-safetensors-v1",
+  "target_model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "capacity": "M",
+  "repair_config": {
+    "d_b": 512,
+    "n_blocks": 6,
+    "n_heads": 8,
+    "d_seg": 16,
+    "mlp_ratio": 3.0,
+    "rope_theta": 10000.0
+  },
+  "target_config": {
+    "n_layers": 36,
+    "n_kv_heads": 2,
+    "head_dim": 128,
+    "hidden_size": 2048,
+    "n_attention_heads": 16,
+    "rope_theta": 1000000.0,
+    "rope_scaling": null,
+    "max_position_embeddings": 32768
+  },
+  "target_rope_spec": {
+    "kind": "cache_repair_target_rope_spec_v1",
+    "config": {
+      "model_type": "qwen2",
+      "head_dim": 128,
+      "rope_theta": 1000000.0,
+      "rope_type": "default",
+      "rope_scaling": null,
+      "max_position_embeddings": 32768
+    },
+    "inv_freq_count": 64,
+    "inv_freq_fp32_sha256": "138c99b109d7affbfba059e435670918fe4531bce4709b6e86f3f22f7ef80f6e",
+    "attention_scaling": 1.0,
+    "frequency_source": "live_model.model.rotary_emb.inv_freq",
+    "content_sha256": "f365919043343c2f95b674bf2ee4a12054af502092a93332d4a8c0861c1fbb21"
+  },
+  "key_coordinates": "canonical",
+  "repair_attention": "block_causal",
+  "training": {
+    "checkpoint_epoch": 6,
+    "checkpoint_step": 75000,
+    "examples_per_epoch": 50000,
+    "effective_document_batch": 4,
+    "seed": 7,
+    "initialization_seed": 853119240,
+    "planned_epochs": 8,
+    "learning_rate_horizon_updates": 100000,
+    "optimizer": {
+      "name": "AdamW",
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "epsilon": 1e-08,
+      "weight_decay": 0.01,
+      "gradient_clip_norm": 1.0
+    },
+    "learning_rate": {
+      "peak": 0.0003,
+      "warmup_fraction": 0.02,
+      "decay": "cosine",
+      "minimum": 3e-05
+    }
+  }
+}

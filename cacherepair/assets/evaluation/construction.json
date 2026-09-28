@@ -1,0 +1,88 @@
+{
+  "musique": {
+    "source_hashes": {
+      "dev": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b"
+    },
+    "source_files": [
+      {
+        "ordinal": 0,
+        "filename": "musique_ans_v1.0_dev.jsonl",
+        "sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+        "rows": 2417
+      }
+    ],
+    "max_chunks": 20,
+    "document_token_budget": 4096,
+    "balanced_token_chunks": null
+  },
+  "hotpotqa": {
+    "source_hashes": {
+      "validation": "c9d4d06ea592d944e2d30fdcb901a36b4dd867d09b6dacded73bd428d22005ad"
+    },
+    "source_files": [
+      {
+        "ordinal": 0,
+        "filename": "validation-00000-of-00001.parquet",
+        "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+        "rows": 7405
+      }
+    ],
+    "max_chunks": 20,
+    "document_token_budget": 4096,
+    "balanced_token_chunks": null
+  },
+  "multihoprag": {
+    "source_hashes": {
+      "public": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff"
+    },
+    "source_files": [
+      {
+        "role": "queries",
+        "filename": "MultiHopRAG.json",
+        "sha256": "03cfb4926461f868684903aadc8024447bdda5bb3f6804741424cce338515bff"
+      },
+      {
+        "role": "corpus",
+        "filename": "corpus.json",
+        "sha256": "20b61b5ab84de84a927420c5d265b7ec8d859ae49980699958a787ade9e4d28f"
+      }
+    ],
+    "max_chunks": 20,
+    "document_token_budget": 4096,
+    "balanced_token_chunks": 20
+  },
+  "triviaqa": {
+    "source_hashes": {
+      "validation": "c6cfda4afc6d5e4aa61cde4c4ac89a3b3d833282679f662549367250cdde8462"
+    },
+    "source_files": [
+      {
+        "ordinal": 0,
+        "filename": "validation-00000-of-00004.parquet",
+        "sha256": "2e9439f893fcb25710fad919808ee2bc08d07f17c2c7eca91e71125003165951",
+        "rows": 4486
+      },
+      {
+        "ordinal": 1,
+        "filename": "validation-00001-of-00004.parquet",
+        "sha256": "12112fddd71066274f4b3df9fecfb2112f3f7b99dae25ec12cfa69ba33d94fc6",
+        "rows": 4486
+      },
+      {
+        "ordinal": 2,
+        "filename": "validation-00002-of-00004.parquet",
+        "sha256": "b36b4db70a66277b7a4d0d75eaa6b6710a2ed352550fb56396486a0566205906",
+        "rows": 4486
+      },
+      {
+        "ordinal": 3,
+        "filename": "validation-00003-of-00004.parquet",
+        "sha256": "4e8b3254106a1245310c3226e05296293a7ccc646ce5c695084cc59054e07477",
+        "rows": 4486
+      }
+    ],
+    "max_chunks": 20,
+    "document_token_budget": 4096,
+    "balanced_token_chunks": 20
+  }
+}

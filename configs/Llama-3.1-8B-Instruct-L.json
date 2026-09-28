@@ -1,0 +1,79 @@
+{
+  "format": "cacherepair-safetensors-v1",
+  "target_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "capacity": "L",
+  "repair_config": {
+    "d_b": 704,
+    "n_blocks": 6,
+    "n_heads": 11,
+    "d_seg": 24,
+    "mlp_ratio": 3.0,
+    "rope_theta": 10000.0
+  },
+  "target_config": {
+    "n_layers": 32,
+    "n_kv_heads": 8,
+    "head_dim": 128,
+    "hidden_size": 4096,
+    "n_attention_heads": 32,
+    "rope_theta": 500000.0,
+    "rope_scaling": {
+      "factor": 8.0,
+      "high_freq_factor": 4.0,
+      "low_freq_factor": 1.0,
+      "original_max_position_embeddings": 8192,
+      "rope_type": "llama3"
+    },
+    "max_position_embeddings": 131072
+  },
+  "target_rope_spec": {
+    "kind": "cache_repair_target_rope_spec_v1",
+    "config": {
+      "model_type": "llama",
+      "head_dim": 128,
+      "rope_theta": 500000.0,
+      "rope_type": "llama3",
+      "rope_scaling": {
+        "factor": 8.0,
+        "high_freq_factor": 4.0,
+        "low_freq_factor": 1.0,
+        "original_max_position_embeddings": 8192,
+        "rope_type": "llama3"
+      },
+      "max_position_embeddings": 131072
+    },
+    "inv_freq_count": 64,
+    "inv_freq_fp32_sha256": "4ae228093081627907bb1abceaa696354a9d187a0202a20492a1105c1ade70e3",
+    "attention_scaling": 1.0,
+    "frequency_source": "live_model.model.rotary_emb.inv_freq",
+    "content_sha256": "3b96f58448e0ae7b8dcb1d3574b1c882e160cff81f269d2b5dba8da3d4bb1464"
+  },
+  "key_coordinates": "canonical",
+  "repair_attention": "block_causal",
+  "training": {
+    "checkpoint_epoch": 6,
+    "checkpoint_step": 75000,
+    "examples_per_epoch": 50000,
+    "effective_document_batch": 4,
+    "seed": 7,
+    "initialization_seed": 1534808653,
+    "planned_epochs": 6,
+    "learning_rate_horizon_updates": 100000,
+    "optimizer": {
+      "name": "AdamW",
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "epsilon": 1e-08,
+      "weight_decay": 0.01,
+      "gradient_clip_norm": 1.0
+    },
+    "learning_rate": {
+      "warmup_updates": 2000,
+      "peak": 0.0003,
+      "minimum": 3e-05,
+      "decay": "linear_warmup_cosine_decay_on_lr_horizon"
+    }
+  }
+}
