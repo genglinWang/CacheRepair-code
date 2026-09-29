@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cacherepair"
-version = "0.1.0"
+version = "1.0.0rc1"
 description = "Learning to repair cross-chunk context in RAG for KV cache fusion"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -25,3 +25,8 @@ include = ["cacherepair*"]
 
 [tool.setuptools.package-data]
 cacherepair = ["assets/evaluation/*.json", "assets/evaluation/*.jsonl"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2609.35139"
+Repository = "https://github.com/genglinWang/CacheRepair-code"
+Models = "https://huggingface.co/gwang3456/cacherepair"

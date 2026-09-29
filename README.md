@@ -1,5 +1,7 @@
 # CacheRepair
 
+[Paper](https://arxiv.org/abs/2609.35139) | [Code](https://github.com/genglinWang/CacheRepair-code) | [Models](https://huggingface.co/gwang3456/cacherepair)
+
 **Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion**
 
 CacheRepair is a small external network that reconstructs cross-chunk context
@@ -143,3 +145,22 @@ CacheRepair code is licensed under [Apache-2.0](LICENSE). Repairer weights have
 target-specific terms described in the [model repository](https://huggingface.co/gwang3456/cacherepair/blob/main/LICENSE).
 Obtain target LLMs and datasets from their original providers under their
 respective licenses. See [NOTICE](NOTICE) for model attribution.
+
+## Version and citation
+
+This release candidate pairs code version `1.0.0rc1` with the nine repairers
+listed in `manifest.json` in the model repository and
+[arXiv v1](https://arxiv.org/abs/2609.35139v1) (September 28, 2026).
+For reproducible runs, retain the code commit and the model repository revision.
+
+```bibtex
+@misc{wang2026cacherepair,
+  title={CacheRepair: Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion},
+  author={Genglin Wang and Wangsong Yin and Yeerzhati Abudunuer and Haoxuan Xu and Guoliang Xing and Zhenyu Yan},
+  year={2026},
+  eprint={2609.35139},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2609.35139}
+}
+```
