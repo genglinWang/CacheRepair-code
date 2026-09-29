@@ -148,7 +148,7 @@ respective licenses. See [NOTICE](NOTICE) for model attribution.
 
 ## Version and citation
 
-This release candidate pairs code version `1.0.0rc1` with the nine repairers
+This release pairs code version `1.0.0` with the nine repairers
 listed in `manifest.json` in the model repository and
 [arXiv v1](https://arxiv.org/abs/2609.35139v1) (September 28, 2026).
 For reproducible runs, retain the code commit and the model repository revision.

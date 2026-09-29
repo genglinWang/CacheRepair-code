@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cacherepair"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "Learning to repair cross-chunk context in RAG for KV cache fusion"
 readme = "README.md"
 license = {file = "LICENSE"}
