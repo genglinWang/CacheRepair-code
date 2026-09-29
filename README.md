@@ -19,6 +19,16 @@ The [Hugging Face models](https://huggingface.co/gwang3456/cacherepair) contain
 repair weights and their normalization statistics. Obtain the matching target
 LLM from its official repository, including the required Llama access approval.
 
+## Overview and results
+
+![CacheRepair paradigm: a lightweight KV cache repair network.](docs/figures/figure1.png)
+
+**Figure 1.** CacheRepair uses a lightweight network to repair independently precomputed document KV caches.
+
+![Answer F1 versus p50 TTFT for Qwen2.5-14B on four downstream datasets.](docs/figures/figure2.png)
+
+**Figure 2.** Answer F1 versus p50 TTFT for Qwen2.5-14B on four downstream datasets. See the [paper](https://arxiv.org/abs/2609.35139) for the evaluation settings.
+
 ## Quick tutorial
 
 **Install.** Use Linux with an NVIDIA GPU for evaluation. The paper uses one
